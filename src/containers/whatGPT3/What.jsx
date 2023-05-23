@@ -28,7 +28,7 @@ const featuresContent = [
 
 const What = () => {
   return (
-    <div className="gpt3__what sec__padding">
+    <div className="gpt3__what sec__padding" id='whatgpt'>
       <div className="gpt3__what_container">
         {
           <Feature

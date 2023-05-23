@@ -5,7 +5,7 @@ import people from '../../assets/people.png'
 
 const Header = () => {
   return (
-    <div className="gpt3__header sec__padding">
+    <div className="gpt3__header sec__padding " id='home'>
       <div className="gpt3__header_container">
         <div className="gpt3__header_container-text">
           <h1 className="gradient__text">

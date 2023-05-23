@@ -6,11 +6,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: 1rem;
-    column-gap: 70px;
+    column-gap: 4rem;
 }
 .feature-title {
     font-weight: 800;
-    line-height: 24px;
+    line-height: 1.5rem;
     position: relative;
     color: white;
     font-size: 1.5rem;
