@@ -1,0 +1,35 @@
+.gpt3__features{
+    position: relative;
+}
+.gpt3__features::before{
+    
+    content: '';
+    position: absolute;
+    background: #07325F;
+    filter: blur(282px);
+    width: 30%;
+    height: 100%;
+    left: -10%;
+    bottom: 48%;
+    
+}
+.gpt3__features_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 140px;
+}
+
+
+.gpt3__features_container-future{
+    flex: 1;
+}
+
+.gpt3__features_container-future p{
+    color: #FF8A71;
+    cursor: pointer;
+    margin-top: 2.5rem;
+}
+.gpt3__features_container{
+    flex: 2;
+}

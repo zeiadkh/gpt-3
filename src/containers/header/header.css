@@ -1,0 +1,108 @@
+.gpt3__header_container{
+    display: flex;
+    align-items: center;
+}
+.gpt3__header_container-text{
+    
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.gpt3__header_container-text h1{
+    min-width: 47vw;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+.gpt3__header_container-text>p{
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+}
+.gpt3__header_container-text-mail{
+    display: flex;
+    align-items: center;
+    gap: 0;
+}
+.gpt3__header_container-text-mail input{
+    padding: 1rem ;
+    min-width: 30vw;
+    outline: none;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #052D56;
+    color: #fff;
+    
+}
+.gpt3__header_container-text-mail input::placeholder{
+    color:  #3D6184;;
+}
+.gpt3__header_container-text-mail button{
+    margin: 0;
+    cursor: pointer;
+    border: none;
+    background: var(--color-button);
+    border-radius: 0 5px  5px 0;
+    padding: 0.5rem 1rem ;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    height: 48px;
+}
+.gpt3__header_container img{
+    max-width: 100%;
+}
+.gpt3__header_container-text-people{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.gpt3__header_container-text-people p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+
+@media screen and (max-width: 1080px) {
+   
+}
+@media screen and (min-width: 700px) {
+    .gpt3__header_container-text p{
+        max-width: 39vw;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+    
+    .gpt3__header_container-text h1 {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    .gpt3__header_container-text-people{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 820px) {
+
+    .gpt3__header_container-text button {
+            font-size: 1rem;
+            padding: 0.5rem;
+            line-height: 1;
+    }
+}
+@media screen and (max-width: 550px) {
+    .gpt3__header_container-mask {
+        display: none;
+    }
+
+
+    
+}

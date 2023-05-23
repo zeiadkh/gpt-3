@@ -1,0 +1,92 @@
+.gpt3__what_container{
+    background-color: var(--color-blog);
+    padding: 3rem;
+    color: white;
+    font-family: var(--font-family);
+    position: relative;
+    overflow: hidden;
+       
+}
+.gpt3__what_container::after,
+.gpt3__what_container::before{
+    content: '';
+    position: absolute;
+    background: #1B78DE;
+    filter: blur(100px);
+    width: 30%;
+    height: 30%;
+    right: -10%;
+    bottom: -10%;
+}
+.gpt3__what_container::before{
+    background: #0F4279;
+    filter: blur(60px);
+    top: -18%;
+    left: -10%;
+}
+.gpt3__what_container div{
+    margin-bottom: 5rem;
+}
+.gp3__what_container-header,
+.gpt3__what_container-poss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gpt3__what_container .gpt3__feature h3{
+    flex-basis: 100%;
+}
+
+.gp3__what_container-header p{
+    flex-basis: 80%;
+}
+.gpt3__what_container-poss h2{
+    font-size: 2rem;
+        
+}
+.gpt3__what_container-poss a{
+    color: #FF8A71;
+    cursor: pointer;
+}
+.gpt3__what_container p{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 188%;
+    color: #81AFDD;
+}
+.gpt3__what h2{
+    font-weight: 800;
+    line-height: 75px;
+    position: relative;
+}
+.gpt3__what_container h2:not(.gpt3__what_container-poss h2)::before{
+    content: '';
+    position: absolute;
+    height: 0.25rem;
+    width: 2.25rem;
+    background: var(--gradient-bar);
+    top: -10rem;
+}
+.gpt3__what_container-footer{
+    display: flex;
+    column-gap: 2.5rem;
+    flex-wrap: wrap;
+}
+.gpt3__what_container-footer-field{
+    flex:1;
+}
+.gpt3__what_container-footer-field .gpt3__feature{
+    display: block;
+}
+.gpt3__what_container-footer h2{
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 400px) {
+    .gpt3__what.sec__padding{
+        padding: 0
+    }
+    
+}
