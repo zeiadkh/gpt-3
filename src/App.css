@@ -1,5 +1,6 @@
 /* @import url(./index.css); */
 *{
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -13,6 +14,13 @@ body{
 a{
     color: unset;
     text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+li{
+    list-style: none;
 }
 .gradient__bg{
     
@@ -36,7 +44,6 @@ a{
 }
 .gradient__text {
     background:var(--gradient-text);
-    /* color: var(--gradient-text); */
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -51,7 +58,6 @@ a{
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
-
 @-webkit-keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
@@ -89,3 +95,14 @@ a{
         margin: 4rem 2rem;
     }
 }
+
+::-webkit-scrollbar{
+    background-color: var(--color-footer);
+    width: 0.5rem;
+    
+}
+::-webkit-scrollbar-thumb {
+    background: var(--gradient-text);
+    border-radius: 1rem;
+}
+

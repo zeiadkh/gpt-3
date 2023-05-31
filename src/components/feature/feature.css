@@ -2,7 +2,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 1rem;
@@ -36,9 +35,15 @@
     color: #81AFDD;
 
     flex: 2;
-    /* max-width: 390px; */
 }
 
+
+@media screen and (max-width: 720px){
+    .gpt3__feature{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
 @media screen and (max-width: 550px) {
     .feature-title {
         font-size: 14px;

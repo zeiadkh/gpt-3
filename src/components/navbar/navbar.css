@@ -49,7 +49,7 @@
     cursor: pointer;
     background: var(--color-button);
     border-radius: 5px;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
 }
 .gpt3__navbar-menu{
     position: relative;

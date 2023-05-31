@@ -1,0 +1,104 @@
+.gpt3__footer{
+    background-color: var(--color-footer);
+    margin: 1.5rem 2rem;
+    color: white;
+    font-family: var(--font-family);
+    padding-bottom: 0;
+    display: grid;
+    padding: 7rem 4rem 1rem;
+
+}
+.gpt3__footer-container{
+    display: grid;
+    
+}
+.gpt3__footer h2{
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+.gpt3__footer button{
+    background-color: transparent;
+    padding:  1rem;
+    color: white;
+    border: 1px solid #fff;
+    margin: 4rem auto 0;
+    
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21px;
+    
+}
+.gpt3__footer-container-lastcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11rem;
+}
+.gpt3__footer-container-lastcontainer ul{
+    flex: 1;
+    display: grid;
+    row-gap: 2.5rem;
+}
+.gpt3__footer-container-lastcontainer h4{
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 16px;
+}
+.gpt3__footer-container-lastcontainer li{
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    line-height: 14px;
+    max-width: 116px;
+}
+.gpt3__footer-logo{
+    display: grid;
+    flex: 2
+}
+
+.gpt3__footer-logo span{
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: -2rem;
+    max-width: 168px;
+    display: block;
+    margin-top: -5rem;
+}
+.gpt3__footer p{
+    margin: 3rem auto 0;
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    line-height: 14px;
+    font-feature-settings: 'liga' off;
+}
+.gpt3__footer li, .gpt3__footer button {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+    .gpt3__footer{
+        padding: 7rem 7rem 1rem;
+    }
+    
+}
+@media screen and (max-width: 780px) {
+    .gpt3__footer-container-lastcontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+    .gpt3__footer h2{
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (max-width: 550px) {
+    .gpt3__footer-container-lastcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
