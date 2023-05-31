@@ -50,7 +50,7 @@
         flex-direction: column;
         row-gap: 2rem;
     }
-    .gpt3__article h2{
+    .gpt3__blog h2{
         font-size: 24px;
     }
 }
