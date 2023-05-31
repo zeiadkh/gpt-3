@@ -7,7 +7,7 @@ const Possibility = () => {
     <div className="gpt3__possibility sec__padding" id='possibility'>
       <div className="gpt3__possibility--container">
         <div className="gpt3__possibility--container-img">
-          <img src={image} alt="possibility" loading='lazy-load'/>
+          <img src={image} alt="possibility" loading='lazy'/>
         </div>
         <div className="gpt3__possibility--container-text">
           <p>Request Early Access to Get Started</p>
