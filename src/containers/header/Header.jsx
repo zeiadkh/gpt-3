@@ -25,12 +25,12 @@ const Header = () => {
             <button >Get Started</button>
           </div>
           <div className="gpt3__header_container-text-people">
-            <img src={people} alt="people" />
+            <img src={people} alt="people" loading='lazy-load'/>
             <p>1,600 people requested access a visit in last 24 hours</p>
           </div>
         </div>
         <div className="gpt3__header_container-mask">
-          <img src={mask} alt="ai-mask" />
+          <img src={mask} alt="ai-mask" loading='lazy-load'/>
         </div>
       </div>
     </div>
